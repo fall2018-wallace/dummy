@@ -44,10 +44,15 @@
             "name": "cleandata.csv"
         },
         {
+            "assigned_to": "hmehta",
             "desc": "",
-            "name": "MergeArrests.R"
+            "name": "MergeArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-04 17:09:22",
+    "updated_at": "2018-10-04 17:27:14",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
