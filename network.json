@@ -22,7 +22,7 @@
         {
             "ports": [],
             "source": "MergeArrests.R",
-            "target": "data.csv"
+            "target": "cleandata.csv"
         }
     ],
     "nodes": [
@@ -35,13 +35,13 @@
             "task_status": "in progress"
         },
         {
-            "name": "data.csv"
+            "name": "cleandata.csv"
         },
         {
             "desc": "",
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:02:52",
+    "updated_at": "2018-10-04 17:03:51",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
