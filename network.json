@@ -30,12 +30,18 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "name": "clean.R"
+            "assigned_to": "hmehta",
+            "name": "clean.R",
+            "task_status": "in progress"
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 16:46:51",
+    "updated_at": "2018-10-04 17:01:16",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
