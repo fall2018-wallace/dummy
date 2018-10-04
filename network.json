@@ -15,19 +15,14 @@
             "target": "clean.R"
         },
         {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
             "ports": [],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [],
+            "source": "MergeArrests.R",
+            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -47,6 +42,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:02:29",
+    "updated_at": "2018-10-04 17:02:52",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
