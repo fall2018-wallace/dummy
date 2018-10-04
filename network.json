@@ -33,7 +33,7 @@
         {
             "ports": [
                 {
-                    "output": "df",
+                    "output": "plot1",
                     "type": "png"
                 }
             ],
@@ -63,6 +63,6 @@
             "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-04 17:27:29",
+    "updated_at": "2018-10-04 17:27:49",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
