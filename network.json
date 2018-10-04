@@ -29,6 +29,16 @@
             ],
             "source": "clean.R",
             "target": "MergeArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "df",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "plot1.png"
         }
     ],
     "nodes": [
@@ -53,6 +63,6 @@
             "name": "plot1.png"
         }
     ],
-    "updated_at": "2018-10-04 17:27:14",
+    "updated_at": "2018-10-04 17:27:29",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
