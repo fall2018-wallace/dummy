@@ -10,3 +10,4 @@ df
 
 
 
+arrests$Statename<-row.names(df$Statename)
