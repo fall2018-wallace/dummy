@@ -38,7 +38,7 @@ mybarmurrot <- ggplot(merge_df, aes(x= Statename,y=num.ofmurders))+ geom_col() +
 mybarmurrotsort <- ggplot(merge_df, aes(x= reorder(Statename,num.ofmurders),y=num.ofmurders))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
 
 #11)Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
-mybarmurrotsortper <- ggplot(merge_df, aes(x= reorder(Statename,Murder),y=num.ofmurders,fill=perover18))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
+mybarmurrotsortper <- ggplot(merge_df, aes(x= reorder(Statename,num.ofmurders),y=num.ofmurders,fill=perover18))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
 
 #12)Generate a scatter plot – have population on the X axis, the percent over 18 on the y axis, and the size & color represent the murder rate
 myscat <- ggplot(merge_df, aes(x=Population,y=perover18)) + geom_point(aes(size=Murder,color=Murder)) + ggtitle("Scatter plot")
