@@ -3,7 +3,8 @@ arrests <- USArrests
 arrests
 df
 arrests$Statename <- rownames(arrests)
-merge_df <- merge(arrests,df,by.arrests="rownames",by.df="Statename")
+arrests
+merge_df <- merge(arrests,df,by="Statename")
 merge_df
 
 
