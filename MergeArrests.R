@@ -24,6 +24,5 @@ mybplotrape <- ggplot(merge_df,aes(x=factor(0),y=Rape)) + geom_boxplot()+ ggtitl
 #6)	Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
 
 #7)	Calculate the number of murders per state
-#merge_df$num.ofmurders <- rownames(merge_df)
 merge_df$num.ofmurders <- merge_df$Population * merge_df$Murder/100000
 merge_df
