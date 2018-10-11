@@ -33,7 +33,7 @@
         {
             "ports": [],
             "source": "MergeArrests.R",
-            "target": "plot2.png"
+            "target": "myplotmur.png"
         },
         {
             "ports": [
@@ -68,9 +68,9 @@
             "name": "myplotpop.png"
         },
         {
-            "name": "plot2.png"
+            "name": "myplotmur.png"
         }
     ],
-    "updated_at": "2018-10-11 04:09:31",
+    "updated_at": "2018-10-11 04:09:58",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
