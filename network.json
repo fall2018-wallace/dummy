@@ -43,7 +43,7 @@
                 }
             ],
             "source": "MergeArrests.R",
-            "target": "plot1.png"
+            "target": "myplotpop.png"
         }
     ],
     "nodes": [
@@ -65,12 +65,12 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot1.png"
+            "name": "myplotpop.png"
         },
         {
             "name": "plot2.png"
         }
     ],
-    "updated_at": "2018-10-11 04:08:54",
+    "updated_at": "2018-10-11 04:09:31",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
