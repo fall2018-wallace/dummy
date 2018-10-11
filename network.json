@@ -49,6 +49,16 @@
             ],
             "source": "MergeArrests.R",
             "target": "myplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myplotass",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "myplotass.png"
         }
     ],
     "nodes": [
@@ -79,6 +89,6 @@
             "name": "myplotass.png"
         }
     ],
-    "updated_at": "2018-10-11 04:10:43",
+    "updated_at": "2018-10-11 04:10:56",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
