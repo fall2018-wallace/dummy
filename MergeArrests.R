@@ -36,3 +36,5 @@ mybarmurrot <- ggplot(merge_df, aes(x= Statename,y=num.ofmurders))+ geom_col() +
 #10)Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
 mybarmurrotsort <- ggplot(merge_df, aes(x= reorder(Statename,num.ofmurders),y=num.ofmurders))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
 
+#11)Generate a third bar chart, the same as the previous step, but also showing percentOver18 as the color of the bar
+mybarmurrotsortper <- ggplot(merge_df, aes(x= reorder(Statename,num.ofmurders),y=num.ofmurders,fill=percentOver18))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
