@@ -9,8 +9,7 @@ arrests
 merge_df <- merge(arrests,df,by="Statename")
 merge_df
 
-#4)	Create a histogram using ggplot2() for the population and a different histogram for 
-#the murder rate
+#4)	Create a histogram using ggplot2() for the population and a different histogram for the murder rate
 myplotpop <- ggplot(merge_df, aes(x=Population)) + geom_histogram(binwidth = 500000) + ggtitle("Histogram of Population")
 myplotmur <- ggplot(merge_df, aes(x=Murder)) + geom_histogram(binwidth = 5)+  ggtitle("Histogram of Murder")
 myplotass <- ggplot(merge_df, aes(x=Assault)) + geom_histogram(binwidth = 50) +  ggtitle("Histogram of Assault")
@@ -22,4 +21,4 @@ mybplotmur <- ggplot(merge_df,aes(x=factor(0),y=Murder)) + geom_boxplot()+ ggtit
 mybplotass <- ggplot(merge_df,aes(x=factor(0),y=Assault)) + geom_boxplot()+ ggtitle("Boxplot of Assault")
 mybplotrape <- ggplot(merge_df,aes(x=factor(0),y=Rape)) + geom_boxplot()+ ggtitle("Boxplot of Rape")
 
-
+#6)	Create a block comment explaining which visualization (boxplot or histogram) you thought was more helpful (explain why)
