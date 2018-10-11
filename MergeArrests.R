@@ -26,3 +26,13 @@ mybplotrape <- ggplot(merge_df,aes(x=factor(0),y=Rape)) + geom_boxplot()+ ggtitl
 #7)	Calculate the number of murders per state
 merge_df$num.ofmurders <- merge_df$Population * merge_df$Murder/100000
 merge_df
+
+#8)	Generate a bar chart, with the number of murders per state
+mybarmur <- ggplot(merge_df, aes(x= Statename,y=num.ofmurders))+ geom_col() + ggtitle("Bar chart for murders per state")
+
+#9)	Generate a bar chart, with the number of murders per state. Rotate text (on the X axis),so we can see x labels, also add a title named “Total Murders”.
+mybarmurrot <- ggplot(merge_df, aes(x= Statename,y=num.ofmurders))+ geom_col() + ggtitle("Bar chart for murders per state")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
+
+#10)Generate a new bar chart, the same as in the previous step, but also sort the x-axis by the murder rate
+mybarmurrotsort <- ggplot(merge_df, aes(x= reorder(Statename,num.ofmurders),y=num.ofmurders))+ geom_col() + ggtitle("Bar chart for murders per state sorted")+ theme(axis.text.x= element_text(angle = 90, hjust = 1))
+
