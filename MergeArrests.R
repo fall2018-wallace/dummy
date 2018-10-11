@@ -1,4 +1,5 @@
 
+library("ggplot")
 arrests <- USArrests
 arrests
 df
