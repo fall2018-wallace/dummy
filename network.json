@@ -33,12 +33,132 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
+                    "output": "myplotpop",
                     "type": "png"
                 }
             ],
             "source": "MergeArrests.R",
-            "target": "plot1.png"
+            "target": "myplotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myplotmur",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "myplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myplotass",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "myplotass.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myplotrape",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "myplotrape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybplotpop",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybplotpop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybplotmur",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybplotmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybplotass",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybplotass.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybplotrape",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybplotrape.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybarmur",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybarmur.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybarmurrot",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybarmurrot.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybarmurrotsort",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybarmurrotsort.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mybarmurrotsortper",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "mybarmurrotsortper.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "myscat",
+                    "type": "png"
+                }
+            ],
+            "source": "MergeArrests.R",
+            "target": "myscat.png"
         }
     ],
     "nodes": [
@@ -60,9 +180,45 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot1.png"
+            "name": "myplotpop.png"
+        },
+        {
+            "name": "myplotmur.png"
+        },
+        {
+            "name": "myplotass.png"
+        },
+        {
+            "name": "myplotrape.png"
+        },
+        {
+            "name": "mybplotpop.png"
+        },
+        {
+            "name": "mybplotmur.png"
+        },
+        {
+            "name": "mybplotass.png"
+        },
+        {
+            "name": "mybplotrape.png"
+        },
+        {
+            "name": "mybarmur.png"
+        },
+        {
+            "name": "mybarmurrot.png"
+        },
+        {
+            "name": "mybarmurrotsort.png"
+        },
+        {
+            "name": "mybarmurrotsortper.png"
+        },
+        {
+            "name": "myscat.png"
         }
     ],
-    "updated_at": "2018-10-04 17:27:49",
+    "updated_at": "2018-10-11 04:45:26",
     "url": "https://github.com/fall2018-wallace/dummy"
 }
